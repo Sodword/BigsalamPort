@@ -278,5 +278,6 @@
         display: flex;
         gap: 20px;
     }
+    .Portfolio_Services_content_text p b { text-align: center;}
 
 }
