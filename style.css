@@ -353,3 +353,64 @@ body {
     padding-top: 0px;
 }
 
+.Portfolio_client_comment {
+    padding: 5% 4% 2% 7%;
+}
+
+.Portfolio_client_comment h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 3%;
+    color: #965918;
+}
+
+.Portfolio_client_individuual_comment {
+    display: flex;
+    gap: 20px;
+}
+
+.Portfolio_client_individuual_comment .portfolio_client_individual {
+    width: 32%;
+    background-color: #fff;
+    color: #332e2e;
+    padding: 2%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.portfolio_client_individual .Portfolio_client_photo_name {
+    display: flex;
+    gap: 20px;
+}
+
+.Portfolio_client_name {
+    padding-top: 20px;
+}
+
+.Portfolio_client_name p b {
+    font-size: 22px;
+}
+
+.Portfolio_client_name p {
+    margin-bottom: 10px;
+    line-height: 10px;
+}
+
+.Portfolio_client_photo_name .Portfolio_client_photo {
+    width: 30%;
+}
+
+.Portfolio_client_photo img {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.portfolio_client_individual p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.Portfolio_client_icons i {
+    font-size: 30px;
+    color: #965918;
+}
