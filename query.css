@@ -1,0 +1,282 @@
+@media only screen and (min-width: 769px) {
+    /* For desktop: */
+    .Portfolio_menubar_responsive { display: none;}  
+      
+}
+
+@media only screen and (max-width: 760px) {
+    /* For Tablet: */
+    .navbar .icon {
+        display: block;
+        cursor: pointer;
+        background-color: #965918;
+    }
+
+    .navbar a:hover {
+        color: #fff;
+        transition: 1s;
+    }
+
+    .navbar .menu {
+        display: none;
+        margin-top: 5%;
+        padding-left: 4%;
+    }
+
+    .menu a:hover {
+        background-color: #965918;
+        color: #fff;
+    }
+
+    .menu a:first-child {
+        border: none;
+        color: #fff;
+        background-color: #965918;
+    }
+
+    .navbar.responsive .menu {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(38, 38, 38);
+        position: absolute;
+        top: 15%;
+        left: 0;
+        right: 0;
+        width: 90%;
+    }
+
+    .navbar.responsive .menu a {
+        padding: 10px 20px;
+        transition-duration: 1s;
+        /* text-align: center; */
+    }
+
+    .Portfolio_header .Portfolio_header_Navbar {
+        width: 100%;
+    }    
+
+    .Portfolio_header_Content {
+        gap: 0px;
+        width: 100%;
+        padding-right: 0px;
+        background-color: #332e2e;
+        /* border-top-left-radius: 200px; */
+        border-bottom-right-radius: 200px;
+    }
+
+    .Portfolio_header_Content .Portfolio_header_Content_text {
+        padding-right: 10px;
+        width: 50%;
+    }
+
+    .Portfolio_header_Content_image .Profile {
+        margin: 27% 0px 0px 8px;
+        border-bottom-right-radius: 180px;
+        height: 79%;
+        width: 100%;
+    }
+
+    .Portfolio_header_Content_text p {
+        padding-right: 0px; 
+    }
+
+    .Portfolio_header .Portfolio_header_Navbar_3 { display: none; }
+    .Portfolio_header_Content_text h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .Port_serv_proj .Port_Projet {
+        width: 30%;
+    }
+    
+
+    .Portfolio_header_Content_text h1 span {letter-spacing: 2px; -webkit-text-stroke-width: 1.3px; }
+
+    .Portfolio_Services {
+        display: block;
+    }
+
+    .Portfolio_Services .Portfolio_services_table {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .Portfolio_Services .Portfolio_Services_content_text {
+        width: 100%;
+    }
+
+    .Portfolio_Services_content_text p b br:first-child {
+        display: none;
+    }
+
+    .Portfolio_Services .Portfolio_Services_content_text {
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+    .Portfolio_Services .Portfolio_services_table { width: 100%; }
+    .Portfolio_skills_Experience .Portfolio_skill_expereince_content { display: block;  }
+    .Portfolio_skill_expereince_content .Portfolio_skills { width: 100%; }
+    .Portfolio_skills_Experience { padding-left: 0px; }
+    .Portfolio_skill_expereince_content .Portfolio_experience { width: 100%;  }
+    .Portfolio_expereince_date_text .Port_exp_text p:first-child {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .Portfolio_experience_content .Portfolio_expereince_date_text { 
+        padding-left: 7%;
+    }
+
+    .Portfolio_experience h3 {
+        font-size: 35px;
+        margin-top: 10%;
+    }
+
+    .Portfolio_skills h3 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* For mobile: */
+    .navbar .icon {
+        display: block;
+        cursor: pointer;
+        color: #fff;
+        background-color: #965918;
+    }
+
+    .navbar .menu {
+        display: none;
+        margin-top: 5%;
+        padding-left: 4%;
+    }
+
+    .navbar { padding: 0px; }
+
+    .menu a:hover {
+        background-color: #965918;
+        color: #fff;
+    }
+
+    .menu a:first-child {
+        border: none;
+        color: #fff;
+        background-color: #965918;
+    }
+
+    .navbar.responsive .menu {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(38, 38, 38);
+        position: absolute;
+        top: 15%;
+        left: 0;
+        right: 0;
+    }
+
+    .navbar.responsive .menu a {
+        padding: 10px 20px;
+    }
+
+    .Portfolio_header .Portfolio_header_Navbar { width: 100%; } 
+    .Portfolio_header .Portfolio_header_Navbar_3 { display: none; }
+    .Portfolio_header { margin-right: 0px; }
+    .Portfolio_container {
+        width: 100%;
+        margin: 0px;
+        padding-right: 0px;
+    }
+
+    .Portfolio_header_Content_text h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .Portfolio_header_Content {
+        gap: 0px;
+        width: 100%;
+        padding-right: 0px;
+        background-color: #332e2e;
+        border-top-right-radius: 200px;
+        border-bottom-right-radius: 200px;
+    }
+
+    .Portfolio_header_Content_text h1 span {letter-spacing: 5px; }
+    .Portfolio_header_Content .Portfolio_header_Content_text {
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .Portfolio_header_Content_text p {
+        font-size: 14px;
+        padding-right: 15%;
+    }
+
+    .Portfolio_header_Content .Portfolio_header_Content_image { display: none; }
+    .portfolio_mylinks  b {
+        font-size: 17px;
+        padding-right: 20px;
+    }
+    
+    .portfolio_mylinks a {    padding: 5px 10px 5px 10px }
+    .portfolio_mylinks {width: 100%;}
+
+    .Portfolio_Services {  display: block; width: 100%; padding: 2%;}
+
+    .Port_serv_proj .Port_Projet { width: 50%; }
+
+    .Portfolio_Services .Portfolio_Services_content_text {
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+    .Portfolio_skills_Experience .exp br { display: none; }
+
+    .Portfolio_Services .Portfolio_services_table { width: 100%;}
+    .Portfolio_skills_Experience .Portfolio_skill_expereince_content { 
+        display: block;
+        width: 100%;
+     }
+    .Portfolio_skill_expereince_content .Portfolio_skills { width: 100%; }
+    .Portfolio_skills_Experience { padding-left: 0px;   }
+    .Portfolio_skill_expereince_content .Portfolio_experience {
+        width: 100%;
+    }
+    .Portfolio_expereince_date_text .Port_exp_text p:first-child {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+
+    .Portfolio_latest_Project_images {
+        display: block;
+        margin-right: 0px;
+    }
+
+    .Portfolio_client_individuual_comment {
+        display: block;
+        width: 100%;
+    }
+
+    .Portfolio_client_individuual_comment .portfolio_client_individual {
+        width: 100%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .Portfolio_client_name {
+        padding-top: 15px;
+    }
+
+    .Portfolio_client_photo_name .Portfolio_client_photo {
+        width: 20%;
+    }
+
+    .Portfolio_services_table .Table_content {
+        display: flex;
+        gap: 20px;
+    }
+
+}
