@@ -322,5 +322,9 @@
     .Portfolio_footer_content { display: block;}
     .Portfolio_footer_content_individual_meet { width: 40%;}
     .Portfolio_footer_content_individual_Services { width: 50%;}
+    .footer_second_third {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
 
 }
